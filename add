@@ -1,0 +1,11 @@
+#!/bin/bash
+
+git add .
+
+commit_message="updated file"
+
+git commit -m "$commit_message"
+
+git config --global credential.helper store
+
+git push
